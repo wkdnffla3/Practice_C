@@ -1,0 +1,26 @@
+git config --global user.name "wkdnffla3"
+
+git config --global user.email "wkdnffla3@korea.ac.kr"
+
+git config --list
+
+mkdir PROJECTNAME
+
+cd PROJECTNAME
+
+git init
+
+touch Readme.md
+
+git status
+
+git add Readme.md
+
+git add .
+
+git commit -m "initial commit"
+
+git remote add origin https://github.com/wkdnffla3/PROJECTNAME.git
+
+git remote -v
+
